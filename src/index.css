@@ -2,6 +2,8 @@ body{
     margin: 0;
 }
 
+.react-codemirror2 > .CodeMirror:first-child { display: none; }
+
 .top-pane{
     background-color: hsl(225, 6%, 25%);
 }
@@ -17,6 +19,14 @@ body{
     flex-direction: column;
     padding: .5rem;
     background-color: hsl(225, 6%, 25%);
+}
+
+.editor-container.collapsed {
+    flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+    position: absolute;
 }
 
 .editor-title{
