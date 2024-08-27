@@ -2,8 +2,6 @@ body{
     margin: 0;
 }
 
-.react-codemirror2 > .CodeMirror:first-child { display: none; }
-
 .top-pane{
     background-color: hsl(225, 6%, 25%);
 }
